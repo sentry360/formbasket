@@ -1,0 +1,21 @@
+/* 
+    Document   : main
+    Created on : Dec 26, 2012, 7:55:25 PM
+    Author     : serhiy
+    Description:
+        Custom CSS for SumDiff
+*/
+
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.no_wrap{
+    white-space: nowrap;
+}
+.nav .icon-chevron-right {
+    float: right;
+    margin-top: 2px;
+    margin-right: -6px;
+    opacity: .25;
+}

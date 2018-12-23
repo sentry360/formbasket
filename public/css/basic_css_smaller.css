@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 14, 2015, 1:25:06 PM
+    Author     : Daniel
+*/
+
+
+   .form_container{
+        width:50%;
+        border:1px solid red;
+        font-family:Arial;
+        display: inline-block;
+    }
+    
+    #Address {
+       width: 100%; 
+       box-shadow: #CCC
+    }
+    
+    #City {
+      width: 100%;
+      box-shadow: #CCC
+    }
+    
+    #State {
+      width: 15%;
+      margin-right: 2%;
+    }
+    
+    #Zip {
+      width: 22.8%;
+    }
+    
+    #User {
+      text-align: left;
+      width: 100%;
+    }
+    
+    #Password {
+      width: 100%;
+    }
+    
+    #first_name{
+         display: inline-block;
+        width: 100%;
+    }
+    
+    #last_name{
+       width: 100%;
+    }
+    
+    .first{
+    }
+        
+    .test{
+    }
+
+    
+  
