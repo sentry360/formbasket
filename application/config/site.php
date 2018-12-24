@@ -26,8 +26,8 @@ return [
             'path' => 'main/finances',
         ],
         [
-            'title' => 'Dev',
-            'path' => 'dev',
+            'title' => 'Contributing',
+            'path' => 'contributing',
         ],
         [
           'title' => 'About',

@@ -185,10 +185,10 @@ Route::set('bootstrap', 'bootstrap(/<action>(/<id>))')
         'action'     => 'reference',
     ));
 
-Route::set('dev', 'dev(/<action>(/<id>))')
+Route::set('contributing', 'contributing(/<action>(/<id>))')
     ->defaults(array(
         'controller' => 'main',
-        'action'     => 'dev',
+        'action'     => 'contributing',
     ));
 
 Route::set('support', 'support(/<action>(/<id>))')
