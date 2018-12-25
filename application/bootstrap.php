@@ -182,13 +182,25 @@ Route::set('about', 'about(/<action>(/<id>))')
 Route::set('bootstrap', 'bootstrap(/<action>(/<id>))')
     ->defaults(array(
         'controller' => 'main',
-        'action'     => 'reference',
+        'action'     => 'bootstrap',
     ));
 
 Route::set('contributing', 'contributing(/<action>(/<id>))')
     ->defaults(array(
         'controller' => 'main',
         'action'     => 'contributing',
+    ));
+
+Route::set('contributing', 'contributing(/<action>(/<id>))')
+    ->defaults(array(
+        'controller' => 'main',
+        'action'     => 'contributing',
+    ));
+
+Route::set('generator', 'generator(/<action>(/<id>))')
+    ->defaults(array(
+        'controller' => 'main',
+        'action'     => 'generator',
     ));
 
 Route::set('support', 'support(/<action>(/<id>))')

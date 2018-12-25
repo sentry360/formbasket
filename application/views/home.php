@@ -35,16 +35,16 @@
             <div class="card-body d-flex flex-column align-items-start">
                 <!--<strong class="d-inline-block mb-2 text-primary">World</strong>-->
                 <h3 class="mb-0">
-                    <a class="text-dark" href="#">Docs</a>
+                    <a class="text-dark" href="#">Form Field Generator</a>
                 </h3>
-                <div class="mb-1 text-muted">Nov 12</div>
-                <p class="card-text mb-auto">Sample documentation for layout systems with form basket.</p>
-                <a href="#">Continue reading</a>
+                <div class="mb-1 text-muted">Coming Soon</div>
+                <p class="card-text mb-auto">A simple form generator for Bootstrap</p>
+                <a href="javascript:alert('Coming Soon');">Continue to Docs</a>
             </div>
             <img aria-label="Placeholder: Thumbnail"  
                  preserveAspectRatio="xMidYMid slice" focusable="false" style="height:128px;  margin:64px;"
                  class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block"
-                 dy=".3em" x="50%" y="50%" src="/assets/img/icons/manual_128.png" />
+                 dy=".3em" x="50%" y="50%" src="/assets/img/icons/generator_128.png" />
         </div>
     </div>
 </div>
@@ -58,38 +58,15 @@
             </h3>
 
             <div class="blog-post">
-                <h2 class="blog-post-title">Beta Launch</h2>
+                <h2 class="blog-post-title">First Launch</h2>
                 <p class="blog-post-meta">January 1, 2019<!-- by <a href="#">Mark</a>--></p>
 
-                <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-
+                <p>
+                    This is the first launch of the Form Basket. So far I've only published a few examples of Bootstrap form layout examples.
+                    I also created a way people can contribute their layout snippets if they wish via GitHub or simple file upload.
+                    Please see the <a href="/contributing">contributing page</a> for information on how to do so.
                 <hr>
 
-                <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-                <blockquote>
-                    <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </blockquote>
-                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                <h2>Heading</h2>
-                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                <h3>Sub-heading</h3>
-                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <pre><code>Example code block</code></pre>
-                <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-                <h3>Sub-heading</h3>
-                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <ul>
-                    <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-                    <li>Donec id elit non mi porta gravida at eget metus.</li>
-                    <li>Nulla vitae elit libero, a pharetra augue.</li>
-                </ul>
-                <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-                <ol>
-                    <li>Vestibulum id ligula porta felis euismod semper.</li>
-                    <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-                    <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-                </ol>
-                <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
             </div><!-- /.blog-post -->
 
             <!--

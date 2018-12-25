@@ -9,17 +9,13 @@ return [
           'title' => 'Home',
           'path' => '',
         ],
-//        [
-//          'title' => 'Documentation',
-//          'path' => 'documentation',
-//        ],
-//        [
-//          'title' => 'Support',
-//          'path' => 'support',
-//        ],
         [
             'title' => 'Bootstrap Snippets',
             'path' => 'bootstrap',
+        ],
+        [
+            'title' => 'Form Field Generator',
+            'path' => 'generator',
         ],
         [
             'title' => 'Finances',

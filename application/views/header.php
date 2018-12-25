@@ -1,12 +1,12 @@
 <header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
-        <div class="col-4 pt-1">
+        <div class="col-3 pt-1">
             <a class="text-muted" href="/support">Subscribe</a>
         </div>
-        <div class="col-4 text-center">
-            <a class="blog-header-logo text-dark" href="/"><?= $title ?></a>
+        <div class="col-6 text-center">
+            <a class="blog-header-logo text-dark" href="/"><?= $title ?><small><?= $subtitle ?></small></a>
         </div>
-        <div class="col-4 d-flex justify-content-end align-items-center">
+        <div class="col-3 d-flex justify-content-end align-items-center">
             &nbsp;
             <!--
             <a class="text-muted" href="#">
@@ -17,11 +17,6 @@
         </div>
     </div>
 </header>
-
-<ul class="nav nav-pills pull-right">
-        
-</ul>
-<h3 class="muted"><?= $title ?><small><?= $subtitle ?></small></h3>
 
 <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">

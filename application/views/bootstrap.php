@@ -1,20 +1,71 @@
-<!--###Name form-->
+<!--###Name form with labels-->
 <div class="row"> 
-    <div class="col-lg-6">
-        <div class="input-group textfieldname">
-            <label for="first_name" class="input-group-addon">First Name:</label><input id="first_name" class="form-control" type="text" placeholder="">
-
+    <div class="col">
+        <label for="first_name" class="col-form-label">First Name:</label>
+        <input id="first_name" class="form-control" type="text">
+    </div>
+    <div class="col">
+        <label for="last_name" class="col-form-label">Last Name:</label>
+        <input id="last_name" class="form-control" type="text">
+    </div>
+</div>
+<!--###end-->
+<!--###Name form with grouped labels-->
+<div class="row"> 
+    <div class="col">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <label for="first_name" class="input-group-text">First Name:</label>
+            </div>
+            <input id="first_name" class="form-control" type="text">
         </div>
-    </div>              
-    <div class="col-lg-6">
-        <div class="input-group textfieldname">
-            <label for="last_name" span class="input-group-addon">Last Name:</span></label><input id="last_name" class="form-control" type="text" placeholder="">
+    </div>
+    <div class="col">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <label for="last_name" class="input-group-text">Last Name:</span></label>
+            </div>
+            <input id="last_name" class="form-control" type="text">
         </div>
     </div>
 </div>
 <!--###end-->
-<br>        
-<!--###Address, City, State, Zip-->        
+
+<!--###Name form with placeholders-->
+<div class="row">
+    <div class="col">
+        <input id="first_name" class="form-control" type="text" placeholder="First name">
+    </div>
+    <div class="col">
+        <input id="last_name" class="form-control" type="text" placeholder="Last name">
+    </div>
+</div>
+<!--###end-->
+
+<br>
+<!--###Address, City, State, Zip with labels-->
+
+<div class="row"> 
+    <div class="col">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <label for="address" class="input-group-text col-form-label">Address:</label>
+            </div>
+            <input id="address" class="form-control" type="text" placeholder="">
+        </div>
+    </div>
+
+
+    <div class="col">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <label for="last_name"  class="input-group-text col-form-label">Last Name:</span></label>
+            </div>
+            <input id="last_name" class="form-control" type="text" placeholder="">
+        </div>
+    </div>
+</div>
+
 <div class="row">
     <div class="col-lg-12">
         <div class="input-group textfieldname">
