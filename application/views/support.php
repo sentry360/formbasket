@@ -1,5 +1,18 @@
-<fieldset class="form-inline">
-  <label>Please enter your e-mail address.</label>
-  <input type="text" placeholder="some@email.com">
-  <button type="submit" class="btn">Submit</button>
-</fieldset>
+<form action="/support" method="POST">
+    <fieldset>
+        <div class="row">
+            <div class="col-8">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <label for="e-mail" class="input-group-text">E-mail:</label>
+                    </div>
+                    <input id="e-mail" name="e-mail" class="form-control" type="text">
+                </div>
+            </div>
+            <div class="col-4">
+                <button type="submit" class="btn btn-primary">Sign up for updates.</button>
+            </div>
+        </div>
+    </fieldset>
+</form>
+<br />

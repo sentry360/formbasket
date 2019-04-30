@@ -29,7 +29,7 @@ class Controller_Main extends Controller_Template {
         $this->header(' - Bootstrap Snippets');
         $view = View::factory('bootstrap');
         $out = $this->self_ref($view->render());
-        $this->template->content = $out;
+        $this->template->content = '<h2>This needs some organizing down the road</h2><hr />'.$out;
     }
     
     public function action_contributing()
@@ -52,14 +52,6 @@ class Controller_Main extends Controller_Template {
         $this->header(' - documentation');
     }
     
-    public function action_finances()
-    {
-        $this->header(' - Fields for Finances');
-        $view = View::factory('finances');
-        $out = $this->self_ref($view->render());
-        $this->template->content = $out;
-    }
-    
     public function action_generator()
     {
         $this->header(' - Form field generator');
@@ -72,6 +64,14 @@ class Controller_Main extends Controller_Template {
         $support = View::factory('support');
         $this->template->content = $support;
         $this->header(' - Support');
+        
+        if ($this->request->post()) {
+            echo "abc;";
+        }
+        
+        if (isset($_POST)){
+            $this->template->content = "test";
+        }
     }
     
     public function action_tutorial()
@@ -110,7 +110,7 @@ class Controller_Main extends Controller_Template {
             $subcodes = explode('<!--###', $code);
             if (isset($subcodes[1])) {
                 $subsub = explode('-->', $subcodes[1]);
-                $out .= '<h2>'.$subsub[0].'</h2>';
+                $out .= '<h3>'.$subsub[0].'</h3>';
                 $out .= $subsub[1];
                 
                 // CODE MIRROR REFERENCE / RENDER CODE

@@ -18,10 +18,6 @@ return [
             'path' => 'generator',
         ],
         [
-            'title' => 'Finances',
-            'path' => 'main/finances',
-        ],
-        [
             'title' => 'Contributing',
             'path' => 'contributing',
         ],

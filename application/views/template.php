@@ -10,7 +10,7 @@
         <!-- Bootstrap core CSS -->
         <link href="/assets/bootstrap-4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link href="/assets/codemirror/codemirror.css" rel="stylesheet" type="text/css" />
-        
+
         <style>
             .active{
                 text-decoration: underline;
@@ -28,10 +28,22 @@
         </style>
 
         <!-- Custom styles for this template -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet"> -->
         <!-- Custom styles for this template -->
 
         <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="/assets/bootstrap-4.2.1/js/vendor/jquery-slim.min.js"><\/script>')</script>
+        <script src="/assets/bootstrap-4.2.1/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
+
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({
+                        google_ad_client: "ca-pub-5333539255977131",
+                        enable_page_level_ads: true
+                    });
+        </script>
 
     </head>
     <body>
@@ -39,6 +51,16 @@
         <div class="container">
 
             <?= $top ?>
+
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Form Basket -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:970px;height:90px"
+                 data-ad-client="ca-pub-5333539255977131"
+                 data-ad-slot="2626510646"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
 
             <!--
             <div class="row mb-2">
@@ -85,18 +107,14 @@
             </p>
         </footer>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="/assets/bootstrap-4.2.1/js/vendor/jquery-slim.min.js"><\/script>')</script>
-        <script src="/assets/bootstrap-4.2.1/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
-
         <?php if (isset($js_out)): ?>
             <script type="text/javascript">
-                $(document).ready(function() {
-                    <?=$js_out?>
+                $(document).ready(function () {
+    <?= $js_out ?>
                 });
             </script>
         <?php endif; ?>
-        
+
         <script type="text/javascript" src="/assets/codemirror/codemirror.js"></script>
         <script src="/assets/codemirror/addon/selection/selection-pointer.js"></script>
         <script type="text/javascript" src="/assets/codemirror/mode/xml/xml.js"></script>
@@ -106,32 +124,47 @@
         <script type="text/javascript" src="/assets/codemirror/mode/htmlmixed/htmlmixed.js"></script>
 
     </body>
-</html>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-13251646-8"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+                gtag('js', new Date());
 
-
-<?php /*
-
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-
-        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-
-        <!-- Fav and touch icons -->
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="/ico/apple-touch-icon-57-precomposed.png">
-        <link rel="shortcut icon" href="/ico/favicon.png">
-        
-        <!--<script src="/js/tutorial_js.js"></script> "Commenting out, ask Michael about this, not sure why it's breaking" -Serhiy 10/19/15 -->
-
-    </head>
+                gtag('config', 'UA-13251646-8');
+    </script>
 
 </html>
 
-/*?>
+
+
+<?php
+/*
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="/ico/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="/ico/favicon.png">
+
+  <!--<script src="/js/tutorial_js.js"></script> "Commenting out, ask Michael about this, not sure why it's breaking" -Serhiy 10/19/15 -->
+
+  </head>
+
+  </html>
+
+ */
+?>

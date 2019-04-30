@@ -5,94 +5,39 @@
     }
 </style>
 
+<script type="text/javascript" src="/assets/js/form_field_generator.js"></script>
+
 <form action="javascript:generate()">
-    Instructions:
-    <br />
-    <code>
-        r
+    <h4>Instructions:</h4>
+    <code style="color:#118600">
+        r &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;--- r = row
         <br />
-        c || c7 
+        c || c7 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;--- c = column OR c with a number so as to set its width, aka c4
         <br />
-        l || gl || p
+        l || g || p  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;--- l = standard label OR g = group label OR p = placeholder
         <br />
-        Input Name:
+        Input Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<&nbsp;--- label or placeholder(: trimmed), also id(: trimmed, spaces become underscores)
     </code>
 
-    <textarea id="input">
+<textarea id="input">
+r
+c4
+g
+First Name:
+c8
+p
+Last Name:
 r
 c
 l
-First Name:
-c
-l
-Last Name:</textarea>
+Middle Name:
+</textarea>
 
     <textarea id="output"></textarea>
-    <button type="submit">Generate</button>
+    <button type="submit" class="btn btn-primary">Generate Form Fields</button>
+    
 </form>
 
-<script type="text/javascript">
-
-    function generate() {
-        var input = $('#input').val();
-        $('#output').val(parse(input));
-        // fire codemirror maybe...
-    }
-    function parse(input) {
-        var lines = input.trim().split('\n');
-        var output = '';
-
-        var row_open = false;
-        var col_open = false;
-        var input_printed = false;
-
-        for (var i = 0; i < lines.length; i++) {
-            // split and check the #
-            var sym = lines[i];
-
-            //debug
-            //output += sym + '  --  \n';
-
-            if (sym == 'r') {
-                output += '<div class="row">\n';
-                row_open = true;
-            } else if (sym == 'c') {
-                output += '    <div class="col">\n';
-                col_open = true;
-            } else if (sym == 'l') {
-                var label = lines[i + 1];
-                var id = label.split(' ').join('_')
-                id = id.split(':').join('').toLowerCase();
-                output += '        <label for="' + id + '" class="col-form-label">' + label + '</label>\n';
-                output += '        <input id="' + id + '" class="form-control" type="text">\n';
-
-                if (col_open) {
-                    output += '    </div>\n'; // close column
-                    col_open = false;
-                }
-
-
-//                input_printed = true;
-                i++;
-            }
-
-
-            //IF THE ROW IS OPEN AND THE COLUMN IS CLOSED AND THE INPUT HAS BEEN PRINTED AND THE NEXT LINE ISN'T A NEW COLUMN
-            if (row_open && input_printed) {
-                //output += '\nrow open=' + lines[i + 1] + '\n';
-            }
-
-            if (row_open && col_open == false && input_printed < 1 && lines[i + 1] != 'c')
-            {
-                output += '</div>'; // close row
-            }
-
-            //for(var line in lines){
-            //output += lines[i] + ' - parsed\n';
-            //remove :
-            // spaces turn to _
-        }
-        return output;
-    }
-
-</script>
+<br />
+<div id="rendered_output"></div>
+<br />

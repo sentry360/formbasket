@@ -5,8 +5,8 @@
         </div>
         <div class="col-6">
             <h1 class="display-4 font-italic">Form Basket</h1>
-            <p class="lead my-3">Please check back soon, or sign up to be informed of when we launch.</p>
-            <p class="lead mb-0"><a href="/support" class="text-white font-weight-bold">Sign up for notifications</a></p>
+            <p class="lead my-3">Code snippets, references, and generators to make laying out your forms easier.</p>
+            <p class="lead mb-0"><a href="/support" class="text-white font-weight-bold">Sign up for update notifications</a></p>
         </div>
     </div>
 </div>
@@ -19,14 +19,16 @@
                 <h3 class="mb-0">
                     <a class="text-dark" href="/bootstrap">Bootstrap Snippets</a>
                 </h3>
-                <div class="mb-1 text-muted">Last Update: Jan 1, 2019</div>
-                <p class="card-text mb-auto">Some sample snippets of various bootstrap forms.</p>
+                <div class="mb-1 text-muted">Last Update: Dec 25, 2018</div>
+                <p class="card-text mb-auto">Some sample snippets of various Bootstrap forms.</p>
                 <a href="/bootstrap">Continue to Bootstrap snippets</a>
             </div>
-            <img aria-label="Placeholder: Thumbnail"  style="height:128px; margin:64px; margin-left:54px; margin-right:54px;"
-                 preserveAspectRatio="xMidYMid slice" focusable="false"
-                 class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block"
-                 dy=".3em" x="50%" y="50%" src="/assets/img/icons/bootstrap_128.png" />
+            <a href="/bootstrap">
+                <img aria-label="Placeholder: Thumbnail"  style="height:128px; margin:64px; margin-left:54px; margin-right:54px;"
+                     preserveAspectRatio="xMidYMid slice" focusable="false"
+                     class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block"
+                     dy=".3em" x="50%" y="50%" src="/assets/img/icons/bootstrap_128.png" />
+            </a>
         </div>
     </div>
 
@@ -35,16 +37,18 @@
             <div class="card-body d-flex flex-column align-items-start">
                 <!--<strong class="d-inline-block mb-2 text-primary">World</strong>-->
                 <h3 class="mb-0">
-                    <a class="text-dark" href="#">Form Field Generator</a>
+                    <a class="text-dark" href="/generator">Form Field Generator</a>
                 </h3>
-                <div class="mb-1 text-muted">Coming Soon</div>
+                <div class="mb-1 text-muted">Last Update: Dec 25, 2018</div>
                 <p class="card-text mb-auto">A simple form generator for Bootstrap</p>
-                <a href="javascript:alert('Coming Soon');">Continue to Docs</a>
+                <a href="/generator">Continue to Form Field Generator</a>
             </div>
-            <img aria-label="Placeholder: Thumbnail"  
-                 preserveAspectRatio="xMidYMid slice" focusable="false" style="height:128px;  margin:64px;"
-                 class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block"
-                 dy=".3em" x="50%" y="50%" src="/assets/img/icons/generator_128.png" />
+            <a href="/generator">
+                <img aria-label="Placeholder: Thumbnail"  
+                     preserveAspectRatio="xMidYMid slice" focusable="false" style="height:128px;  margin:64px;"
+                     class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block"
+                     dy=".3em" x="50%" y="50%" src="/assets/img/icons/generator_128.png" />
+            </a>
         </div>
     </div>
 </div>
@@ -58,12 +62,13 @@
             </h3>
 
             <div class="blog-post">
-                <h2 class="blog-post-title">First Launch</h2>
-                <p class="blog-post-meta">January 1, 2019<!-- by <a href="#">Mark</a>--></p>
+                <h2 class="blog-post-title">Soft Launch</h2>
+                <p class="blog-post-meta">December 25, 2018<!-- by <a href="#">Mark</a>--></p>
 
                 <p>
-                    This is the first launch of the Form Basket. So far I've only published a few examples of Bootstrap form layout examples.
+                    This is a beta soft launch of Form Basket. So far I've only published a few examples of Bootstrap form layout examples.
                     I also created a way people can contribute their layout snippets if they wish via GitHub or simple file upload.
+                    There is also a simple form generator for repetitive form creation.
                     Please see the <a href="/contributing">contributing page</a> for information on how to do so.
                 <hr>
 
@@ -80,7 +85,7 @@
         <aside class="col-md-4 blog-sidebar">
             <div class="p-3 mb-3 bg-light rounded">
                 <h4 class="font-italic">About</h4>
-                <p class="mb-0">Code snippets and references to make your form layout easy. For Bootstrap and eventually more.</p>
+                <p class="mb-0">Code snippets, references, and generators to make laying out your forms easier. For Bootstrap and eventually more.</p>
             </div>
 
             <div class="p-3">
